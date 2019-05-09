@@ -37,7 +37,8 @@ namespace MegaDesk_Silva
 
         private void Button4_MouseClick(object sender, MouseEventArgs e)
         {
-            this.Close();
+            Application.Exit();
+            // this.Close();
         }
     }
 }
